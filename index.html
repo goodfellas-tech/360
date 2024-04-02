@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Goodfellas 🥋 | Tecnologia de ponta para jiu-jitsu</title>
+
+    <!-- Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/icons/site.webmanifest">
+    <link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Custom Goodfellas CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+            <div class="container px-5 py-3 rounded-pill">
+                <a class="navbar-brand fw-bold" href="#inicio"><img class="navbar-img" src="assets/img/logo-goodfellas.png" alt="Goodfellas"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto me-4">
+                        <li class="nav-item h6 mb-0"><a class="nav-link me-lg-3" href="#como-funciona">Como funciona</a></li>
+                        <li class="nav-item h6 mb-0"><a class="nav-link me-lg-3" href="#status">Status</a></li>
+                        <li class="nav-item h6 mb-0"><a class="nav-link me-lg-3" href="#precos">Preços</a></li>
+                        <li class="nav-item h6 mb-0"><a class="nav-link me-lg-3" href="#faq">FAQ</a></li>
+                    </ul>
+                    <button id="btn-cta" class="btn rounded-pill px-4 mb-2 mb-lg-0 btn-outline-primary h6" data-bs-toggle="modal" data-bs-target="#inviteModal">Pré-reservar</button>
+                </div>
+            </div>
+        </nav>
+        <section id="inicio" class="masthead">
+            <div class="px-4 pt-5 text-center">
+                <p class="pre-title h6 text-black-50">Produto com lançamento previsto para 2025</p>
+                <h1 class="display-4 fw-bold text-primary">Reconhecimento facial<br />para treinos de jiu-jitsu</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4 fw-light"><em>Deixe a inteligência artificial reconhecer quem está presente no treino, identificar quem mais se dedica e tenha controle sobre a jornada dos alunos</em></p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                        <button type="button" class="btn btn-primary btn-lg rounded-pill px-5 me-sm-3"><span class="h5">Saiba mais</span></button>
+                    </div>
+                    <div class="container px-5 offset-lg-neg">
+                        <img src="assets/img/goodfellas-iphone-model.png" class="img-fluid" alt="Aplicativo Goodfellas para praticantes de jiu-jitsu" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="como-funciona">
+            <div class="container bg-white rounded-5 px-0 overflow-hidden">
+                <div class="row gx-5 p-5 pb-0 align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-12 col-lg-4">
+                        <img class="mb-5 w-100" src="assets/img/jiulia-goodfellas-camera-360-ia.png" alt="Câmera 360º + Jiulia (inteligência artificial)">
+                    </div>
+                    <div class="col-sm-10 col-lg-8">
+                        <h2 class="text-primary">Coloque nossa câmera 360º no tatame<br /><span class="text-outline">e nós cuidamos de todo o resto!</span></h2>
+                        <p class="lead fw-normal text-muted">Através de uma câmera  360º de alta resolução que você receberá em casa e instalará facilmente no seu CT, a <strong class="text-primary">Jiulia</strong> (nossa exclusiva Inteligência Artificial) analisará áudio e vídeo para prover suporte completo aos alunos em suas jornadas pela arte suave.</p>
+                        <p class="lead fw-normal text-muted">Conheça as funcionalidades confirmadas da nossa solução:</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="row g-4 p-5 pt-3 row-cols-1 row-cols-lg-3">
+                            <div class="feature col text-center">
+                                <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3 rounded-pill p-3">
+                                    <img src="assets/img/icon-lista-de-presenca-goodfellas.png" alt="">
+                                </div>
+                                <h3 class="text-primary h4">Lista de presença automática</h3>
+                                <p>Através de reconhecimento facial, a inteligência artificial gera a lista dos presentes em cada treino e rankings semanais, mensais e anuais</p>
+                            </div>
+                            <div class="feature col text-center">
+                                <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3 rounded-pill p-3">
+                                    <img src="assets/img/icon-estatisticas-avancadas-goodfellas.png" alt="">
+                                </div>
+                                <h3 class="text-primary h4">Estatísticas avançadas</h3>
+                                <p>Estabeleça metas de graduação com base no volume de treinos, no tempo ativo do aluno nos treinos, entre outros dados importantes</p>
+                            </div>
+                            <div class="feature col text-center">
+                                <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3 rounded-pill p-3">
+                                    <img src="assets/img/icon-resumo-do-treino-goodfellas.png" alt="">
+                                </div>
+                                <h3 class="text-primary h4">Resumo detalhado do treino</h3>
+                                <p>Logo após o treino, forneça um resumo automático da aula, gerado por inteligência artificial, para que os alunos possam consultar e revisar</p>
+                            </div>
+                            <div class="feature col text-center">
+                                <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3 rounded-pill p-3">
+                                    <img src="assets/img/icon-relatorios-completos-goodfellas.png" alt="">
+                                </div>
+                                <h3 class="text-primary h4">Relatórios completos de atividade</h3>
+                                <p>Identifique os parceiros mais comuns nos rolas, se um aluno tem a característica de guardeiro ou de passador e muito mais</p>
+                            </div>
+                            <div class="feature col text-center">
+                                <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3 rounded-pill p-3">
+                                    <img src="assets/img/icon-transmissao-e-gravacao-goodfellas.png" alt="">
+                                </div>
+                                <h3 class="text-primary h4">Transmissão e gravação</h3>
+                                <p>Disponibilize um link para transmitir o treino em tempo real e, também, tenha acesso à gravação completa posteriormente</p>
+                            </div>
+                            <div class="feature col text-center">
+                                <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3 rounded-pill p-3">
+                                    <img src="assets/img/icon-avaliacao-360-goodfellas.png" alt="">
+                                </div>
+                                <h3 class="text-primary h4">Avaliação 360 entre alunos</h3>
+                                <p>Permita que os alunos avaliem e comentem os rolas de seus colegas, assegurando feedbacks valiosos, sem interupções durante os treinos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ps-0 pe-5">
+                        <div class="bg-primary text-white text-center rounded-5 p-4">
+                            <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3 rounded-pill p-3">
+                                <img src="assets/img/icon-seguro-completo-goodfellas.png" alt="">
+                            </div>
+                            <h3 class="h4"><span class="fs-6 fw-light">E mais:</span><br />seguro exclusivo!</h3>
+                            <p class="fw-light">Já imaginou se um aluno se lesiona durante um treino? Sabemos que isso é mais comum do que gostaríamos e pode acontecer na sua academia.
+                            <p class="fw-light">Se você não tiver cobertura contra lesões e as gravações das imagens dos treinos, isso pode te gerar um problema legal.</p>
+                            <p class="fw-light">Durma tranquilo e deixe que nós resolvemos!</p>
+                            <a href="#" class="btn btn-sm btn-outline-light rounded-pill px-4">Saiba mais sobre o seguro</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="p-5 text-center bg-light">
+                    <h3 class="text-primary">Faça parte da nossa comunidade</h3>
+                    <p class="lead w-75 mx-auto">Com a pré-reserva, você confere as funcionalidades do app, vê o que já fizemos e o que ainda estamos desenvolvendo. Venha conosco!</p>
+                    <button type="submit" class="btn btn-lg btn-outline-primary me-2 px-5 rounded-pill h5">Fazer pré-reserva</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="masthead offset-top" id="status">
+            <div class="container">
+                <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between text-center mb-5 pb-5">
+                    <div class="col-12 col-lg-8 mx-auto text-white">
+                        <h2 class="mb-5 display-5">Uma nova era para o jiu-jitsu</h2>
+                        <p class="lead fw-light">No filme <strong>"2001: Uma Odisseia no Espaço"</strong>, uma misteriosa pedra preta marca o início de novas eras de evolução para a humanidade.</p>
+                        <p class="lead fw-light">Nossa solução é a "pedra preta" do nosso tempo, lançando uma nova odisseia no esporte, onde <strong>o futuro é agora</strong> e é construído <strong>coletivamente</strong>.</p>
+                        <a href="#" class="btn btn-outline-light rounded-pill my-4"><span class="h6 mb-0 px-4">Leia nosso manifesto</span></a>
+                    </div>
+                </div>
+
+                <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between text-center">
+                    <div class="col-12 col-lg-8 mx-auto text-white">
+                        <h3 class="mb-4">Todas as etapas do projeto</h3>
+                        <p class="lead fw-light text-light mb-5"><em>Estamos trabalhando a todo o vapor! O envio dos kits e o lançamento do produto acontecerá em 2025. Veja o detalhamento abaixo:</em></p>
+
+                        <div class="main-timeline mb-5">
+                            <div class="timeline left done">
+                                <div class="card border-0 rounded-4">
+                                    <div class="card-body p-4">
+                                        <h6 class="text-black-50">Mai / 2023</h6>
+                                        <h3 class="h4 text-primary">Fase de ideação</h3>
+                                        <p class="mb-0">Nascimento da ideia revolucionária, definindo visão, metas e começando a botar a mão na massa, construindo o aplicativo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline right done">
+                                <div class="card border-0 rounded-4">
+                                    <div class="card-body p-4">
+                                        <h6 class="text-black-50">Out / 2023</h6>
+                                        <h3 class="h4 text-primary">Lançamento da IA</h3>
+                                        <p class="mb-0">Criação e ativação da Jiulia, nossa inteligência artificial exclusiva, projetada inicialmente para funcionar em grupos de WhatsApp.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline left done">
+                                <div class="card border-0 rounded-4">
+                                    <div class="card-body p-4">
+                                        <h6 class="text-black-50">Mar / 2024</h6>
+                                        <h3 class="h4 text-primary">Ativação em CT-modelo</h3>
+                                        <p class="mb-0">Instalação da câmera 360º no Kyoto BJJ, CT do GM Francisco Mansor, para treinamento da IA e validação da solução completa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline right done">
+                                <div class="card border-0 rounded-4">
+                                    <div class="card-body p-4">
+                                        <h6 class="text-black-50">Mar / 2024</h6>
+                                        <h3 class="h4 text-primary">Prototipação do app</h3>
+                                        <p class="mb-0">Elaboração da lista de funcionalidades, desenhos dos esboços das telas e realização de pesquisa com praticantes de jiu-jitsu.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline left current">
+                                <div class="card border-0 rounded-4">
+                                    <div class="card-body p-4">
+                                        <h6 class="text-black-50">Abr / 2024</h6>
+                                        <h3 class="h4 text-primary">Fase de pré-reservas</h3>
+                                        <p class="mb-0">Início do período de pré-vendas da versão promocional da solução para os embaixadores da revolução.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline right">
+                                <div class="card border-0 rounded-4">
+                                    <div class="card-body p-4">
+                                        <h6 class="text-black-50">Previsão: Dez / 2024</h6>
+                                        <h3 class="h4 text-primary">Desenvolvimento do app</h3>
+                                        <p class="mb-0">Finalização do desenvolvimento e lançamento do aplicativo com as funcionalidades previstas e com a conexão com a IA.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline left">
+                                <div class="card border-0 rounded-4">
+                                    <div class="card-body p-4">
+                                        <h6 class="text-black-50">Previsão: Fev / 2025</h6>
+                                        <h3 class="h4 text-primary">Envio dos kits</h3>
+                                        <p class="mb-0">Postagem dos kits com as câmeras 360º e acessórios para instalação no tatame, e liberação do aplicativo para uso.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline right last">
+                                <div class="card border-0 rounded-4">
+                                    <div class="card-body p-4">
+                                        <p class="lead text-black-50 rotate-90 mb-2"><strong>8</strong></p>
+                                        <h3 class="h4 text-primary">Inovação constante</h3>
+                                        <p class="mb-0">Com base em feedbacks, atualizações regulares no aplicativo e aprendizagem contínua da IA, refinando a experiência de uso.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn btn-lg btn-light rounded-pill mt-5"><span class="h4 mb-0 px-5">Faça sua pré-reserva</span></a>
+                        <p class="text-light my-3"><em>* Nenhuma cobrança será efetuada até que o produto esteja pronto e a caminho do seu endereço!</em></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-5" id="precos">
+            <div class="container pt-5 text-center">
+                <h2 class="h1 display-5 text-black-75 mb-4"><span class="fs-4">Aproveite a nossa <span class="text-primary">oferta exclusiva de pré-venda</span> e</span><br />economize 80%</h2>
+                <div class="row my-5">
+                    <div class="col-lg-4 ms-auto p-5 bg-black bg-opacity-10 h-auto my-auto rounded-5">
+                        <h4 class="mb-4">Preço oficial em 2025:</h4>
+                        <p class="mb-1">Taxa de adesão:</p>
+                        <p class="lead mb-4"><strong>R$ 2.000</strong></p>
+                        <p class="mb-1">Mensalidade:</p>
+                        <p class="lead mb-0"><strong>R$ 299</strong></p>
+                    </div>
+                    <div class="col-lg-4 me-auto ms-5 p-5 bg-primary text-white rounded-5">
+                        <h4 class="mb-4">Preço promocional <u>hoje</u>:</h4>
+                        <p class="mb-1 fw-light">Taxa de adesão:</p>
+                        <p class="lead display-6 mb-4"><strong>R$ 399</strong></p>
+                        <p class="mb-1 fw-light">Mensalidade:</p>
+                        <p class="lead display-6 mb-4"><strong>4 meses grátis</strong></p>
+                    </div>
+                </div>
+                <p class="lead text-center mt-5">Em 1 ano, você terá economizado <strong>R$ 3.000</strong>!</p>
+                <a href="#" class="btn btn-lg btn-primary rounded-pill my-4"><span class="h4 mb-0 px-5">Quero pré-reservar agora!</span></a>
+                <p class="my-3 mt-0 text-black-50"><em>* Nenhuma cobrança será efetuada até que o produto esteja pronto e a caminho do seu endereço!</em></p>
+            </div>
+        </section>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
