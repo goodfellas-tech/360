@@ -240,3 +240,19 @@ body {
 #por-que-reservar #img-ia {
   background: url('../assets/img/bg-camera-360-goodfellas-kyoto.jpg') center top no-repeat; background-size: cover;
 }
+
+#footer-info a {
+	border-bottom: 1px solid #505050;
+	font-size: 14px;
+}
+
+#footer input[type=text] {
+  border: 1px solid #505050;
+  height: 30px;
+  padding: 5px 15px;
+  width: 70%;
+}
+
+#footer-info {
+	border-bottom: 1px solid #131313;
+}
