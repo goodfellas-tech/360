@@ -222,8 +222,21 @@ body {
     .right {
       left: 0%;
     }
-  }
+}
 
-  .rotate-90 {
-    transform: rotate(90deg);
-  }
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #dbdbdb;
+  color: #ba2020;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+#por-que-reservar #img-ia {
+  background: url('../assets/img/bg-camera-360-goodfellas-kyoto.jpg') center top no-repeat; background-size: cover;
+}
