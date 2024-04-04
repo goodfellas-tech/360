@@ -246,13 +246,57 @@ body {
 	font-size: 14px;
 }
 
-#footer input[type=text] {
+#mc_embed_signup form {
+	margin: 0px !important;
+}
+
+#mc_embed_signup .mc-field-group {
+	display: inline-block !important;
+	min-height: auto !important;
+	padding-bottom: 0 !important;
+}
+
+#mc_embed_signup .mc-field-group input {
+	clear: none;
+	display: inline-block !important;
+}
+
+#footer input[type=email], #mc_embed_signup .mc-field-group input[type=email] {
   border: 1px solid #505050;
+  font-size: 0.85rem;
   height: 30px;
-  padding: 5px 15px;
-  width: 70%;
+  padding: 5px 15px !important;
+  width: 70% !important;
+}
+
+#mc_embed_signup .mc-field-group input[type=submit], #mc-embedded-subscribe {
+	border: none;
+	margin: 0;
+	padding: 5px 15px;
+	width: 90px !important;
 }
 
 #footer-info {
 	border-bottom: 1px solid #131313;
+}
+
+#mc_embed_signup div#mce-responses {
+	padding: 0 !important;
+	margin: 0 !important;
+	width: 100% !important;
+}
+
+#mc_embed_signup div.response {
+	padding: 0 !important;
+	margin: 1rem 0 !important;
+	width: auto !important;
+}
+
+#mc_embed_signup #mce-success-response {
+	color: #8be138 !important;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+	padding: 5px 15px !important;
+	border-radius: 50px !important;
 }
