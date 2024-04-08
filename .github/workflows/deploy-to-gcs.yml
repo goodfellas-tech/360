@@ -1,0 +1,27 @@
+name: Deploy to Google Cloud Storage
+
+on:
+  push:
+    branches:
+      - main  # Ou a branch que você usa para a produção
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Configure Google Cloud SDK
+      env:
+        GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
+        GCLOUD_PROJECT: ${{ secrets.GCLOUD_PROJECT }}
+      run: |
+        echo "${GCLOUD_AUTH}" | base64 -d > ${HOME}/gcloud.json
+        gcloud auth activate-service-account --key-file=${HOME}/gcloud.json
+
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Deploy to Google Cloud Storage
+      run: |
+        gsutil rsync -r ./www gs://360.goodfellas.app/
