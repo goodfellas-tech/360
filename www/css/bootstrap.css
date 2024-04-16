@@ -766,10 +766,26 @@ progress {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
+
+  .navbar .container {
+    background-color: #ffffffe0;
+  }
+
+  .text-lg-end {
+    text-align: right !important;
+  }
+
+  .text-lg-start {
+    text-align: left !important;
+  }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
+  }
+
+  body {
+    background-size: 100% auto !important;
   }
 }
 @media (min-width: 1400px) {

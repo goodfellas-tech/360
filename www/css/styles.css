@@ -35,13 +35,14 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 body {
     background: url('../assets/img/banner-img-goodfellas-ia.jpg') top center no-repeat;
-    background-size: 100% auto;
+    background-size: auto 1000px;
     background-color: #353535;
 }
 
 .navbar .container {
-    background-color: #ffffffe0;
-    z-index: 2;
+  background-color: #ffffff;
+  border-radius: 50px;
+  z-index: 2;
 }
 
 .masthead {
@@ -239,6 +240,7 @@ body {
 
 #por-que-reservar #img-ia {
   background: url('../assets/img/bg-camera-360-goodfellas-kyoto.jpg') center top no-repeat; background-size: cover;
+  min-height: 430px;
 }
 
 #footer-info a {
@@ -266,7 +268,7 @@ body {
   font-size: 0.85rem;
   height: 30px;
   padding: 5px 15px !important;
-  width: 70% !important;
+  width: 65% !important;
 }
 
 #mc_embed_signup .mc-field-group input[type=submit], #mc-embedded-subscribe {
