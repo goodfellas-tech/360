@@ -82,7 +82,7 @@ body {
     background-size: 100% auto;
 }
 
-#precos {
+#precos, #contato {
     background: url('../assets/img/bg-img-goodfellas-jj.jpg') center center no-repeat;
     background-size: cover;
 }
